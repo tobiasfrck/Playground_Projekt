@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>D:/Projektdateien/Spiel-Projekte/Playground_Projekt/Playground_Projekt/Content/intro.wav</SourceFile>
+  <SourceTime>2011-10-21T17:26:48+02:00</SourceTime>
+  <DestFile>D:/Projektdateien/Spiel-Projekte/Playground_Projekt/Playground_Projekt/Content/bin/DesktopGL/Content/intro.xnb</DestFile>
+  <DestTime>2023-04-24T22:25:56.2513382+02:00</DestTime>
+  <Importer>WavImporter</Importer>
+  <ImporterTime>2022-07-26T13:44:56+02:00</ImporterTime>
+  <Processor>SoundEffectProcessor</Processor>
+  <ProcessorTime>2022-07-26T13:44:56+02:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
