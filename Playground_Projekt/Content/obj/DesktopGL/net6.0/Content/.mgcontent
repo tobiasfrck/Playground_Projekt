@@ -4,11 +4,15 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>D:/Projekte/MonoGame/Playground_Projekt/Playground_Projekt/Content/MonkeyTexture.png</File>
-    <File>D:/Projekte/MonoGame/Playground_Projekt/Playground_Projekt/Content/plane.fbx</File>
-    <File>D:/Projekte/MonoGame/Playground_Projekt/Playground_Projekt/Content/texturedMonkey.fbx</File>
+    <File>D:/Projektdateien/Spiel-Projekte/Playground_Projekt/Playground_Projekt/Content/MonkeyTexture.png</File>
+    <File>D:/Projektdateien/Spiel-Projekte/Playground_Projekt/Playground_Projekt/Content/plane.fbx</File>
+    <File>D:/Projektdateien/Spiel-Projekte/Playground_Projekt/Playground_Projekt/Content/ring_Texture.png</File>
+    <File>D:/Projektdateien/Spiel-Projekte/Playground_Projekt/Playground_Projekt/Content/Ring.fbx</File>
+    <File>D:/Projektdateien/Spiel-Projekte/Playground_Projekt/Playground_Projekt/Content/texturedMonkey.fbx</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

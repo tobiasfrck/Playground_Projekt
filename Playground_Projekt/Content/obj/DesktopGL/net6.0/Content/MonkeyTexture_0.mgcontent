@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>D:/Projekte/MonoGame/Playground_Projekt/Playground_Projekt/Content/MonkeyTexture.png</SourceFile>
-  <SourceTime>2023-04-24T13:24:39.1672494+02:00</SourceTime>
-  <DestFile>D:/Projekte/MonoGame/Playground_Projekt/Playground_Projekt/Content/bin/DesktopGL/Content/MonkeyTexture_0.xnb</DestFile>
-  <DestTime>2023-04-24T13:33:35.8580989+02:00</DestTime>
+  <SourceFile>D:/Projektdateien/Spiel-Projekte/Playground_Projekt/Playground_Projekt/Content/MonkeyTexture.png</SourceFile>
+  <SourceTime>2023-04-24T15:02:26.4520661+02:00</SourceTime>
+  <DestFile>D:/Projektdateien/Spiel-Projekte/Playground_Projekt/Playground_Projekt/Content/bin/DesktopGL/Content/MonkeyTexture_0.xnb</DestFile>
+  <DestTime>2023-04-24T15:11:31.4485982+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T13:44:56+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

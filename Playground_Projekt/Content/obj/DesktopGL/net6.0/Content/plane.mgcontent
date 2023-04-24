@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>D:/Projekte/MonoGame/Playground_Projekt/Playground_Projekt/Content/plane.fbx</SourceFile>
-  <SourceTime>2023-04-24T13:35:53.5075707+02:00</SourceTime>
-  <DestFile>D:/Projekte/MonoGame/Playground_Projekt/Playground_Projekt/Content/bin/DesktopGL/Content/plane.xnb</DestFile>
-  <DestTime>2023-04-24T13:38:17.35253+02:00</DestTime>
+  <SourceFile>D:/Projektdateien/Spiel-Projekte/Playground_Projekt/Playground_Projekt/Content/plane.fbx</SourceFile>
+  <SourceTime>2023-04-24T15:02:26.4750672+02:00</SourceTime>
+  <DestFile>D:/Projektdateien/Spiel-Projekte/Playground_Projekt/Playground_Projekt/Content/bin/DesktopGL/Content/plane.xnb</DestFile>
+  <DestTime>2023-04-24T15:11:30.9616482+02:00</DestTime>
   <Importer>FbxImporter</Importer>
   <ImporterTime>2022-07-26T13:44:56+02:00</ImporterTime>
   <Processor>ModelProcessor</Processor>
