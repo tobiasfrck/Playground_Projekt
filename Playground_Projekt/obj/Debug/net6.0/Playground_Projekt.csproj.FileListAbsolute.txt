@@ -23,7 +23,6 @@ D:\Projektdateien\Spiel-Projekte\Playground_Projekt\Playground_Projekt\obj\Debug
 D:\Projektdateien\Spiel-Projekte\Playground_Projekt\Playground_Projekt\obj\Debug\net6.0\Playground_Projekt.pdb
 D:\Projektdateien\Spiel-Projekte\Playground_Projekt\Playground_Projekt\obj\Debug\net6.0\Playground_Projekt.genruntimeconfig.cache
 D:\Projektdateien\Spiel-Projekte\Playground_Projekt\Playground_Projekt\obj\Debug\net6.0\ref\Playground_Projekt.dll
-D:\Projekte\MonoGame\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\Monkey.xnb
 D:\Projekte\MonoGame\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Playground_Projekt.exe
 D:\Projekte\MonoGame\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Playground_Projekt.deps.json
 D:\Projekte\MonoGame\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Playground_Projekt.runtimeconfig.json
@@ -49,3 +48,7 @@ D:\Projekte\MonoGame\Playground_Projekt\Playground_Projekt\obj\Debug\net6.0\refi
 D:\Projekte\MonoGame\Playground_Projekt\Playground_Projekt\obj\Debug\net6.0\Playground_Projekt.pdb
 D:\Projekte\MonoGame\Playground_Projekt\Playground_Projekt\obj\Debug\net6.0\Playground_Projekt.genruntimeconfig.cache
 D:\Projekte\MonoGame\Playground_Projekt\Playground_Projekt\obj\Debug\net6.0\ref\Playground_Projekt.dll
+D:\Projekte\MonoGame\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\MonkeyTexture.xnb
+D:\Projekte\MonoGame\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\MonkeyTexture_0.xnb
+D:\Projekte\MonoGame\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\texturedMonkey.xnb
+D:\Projekte\MonoGame\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\plane.xnb

@@ -23,7 +23,8 @@ namespace Playground_Projekt
         bool orbit;
 
         //Content:
-        private Model model;
+        private Model monkeyModel;
+        private Model plane;
 
         public Game1()
         {
@@ -75,7 +76,9 @@ namespace Playground_Projekt
 
 
 
-            model = Content.Load<Model>("Monkey");
+            monkeyModel = Content.Load<Model>("texturedMonkey");
+            plane = Content.Load<Model>("plane");
+
             // TODO: use this.Content to load your game content here
         }
 
@@ -156,7 +159,9 @@ namespace Playground_Projekt
                 //GraphicsDevice.DrawPrimitives(PrimitiveType.TriangleList, 0, 3);
             }
             // TODO: Add your drawing code here
-            DrawModel(model,worldMatrix,viewMatrix,projectionMatrix);
+            DrawModel(monkeyModel,worldMatrix,viewMatrix,projectionMatrix);
+            DrawModel(plane, worldMatrix, viewMatrix, projectionMatrix);
+
             base.Draw(gameTime);
         }
     }
