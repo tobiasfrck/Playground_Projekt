@@ -62,3 +62,4 @@ D:\Projektdateien\Spiel-Projekte\Playground_Projekt\Playground_Projekt\bin\Debug
 D:\Projektdateien\Spiel-Projekte\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\woosh.xnb
 D:\Projektdateien\Spiel-Projekte\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\intro.xnb
 D:\Projektdateien\Spiel-Projekte\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\restartButtonSprite.xnb
+D:\Projektdateien\Spiel-Projekte\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\Score.xnb

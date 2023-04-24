@@ -35,6 +35,7 @@ namespace Playground_Projekt
         private SoundEffect winSFX;
         Texture2D buttonSprite;
         private SpriteBatch _spriteBatch;
+        private SpriteFont font;
 
         //Gameplay-Variables
         private int score = 0;
@@ -45,6 +46,7 @@ namespace Playground_Projekt
         public System.Timers.Timer timer1;
         public bool allowMovement = true;
         public ButtonState prevLeftMouseState;
+        public String scoreText = "";
 
         public Game1()
         {
@@ -83,10 +85,10 @@ namespace Playground_Projekt
                 if (i == 0)
                 {
                     ringPosition = new Vector3(rnd.Next(-45, 45), 0, distance);
-                    rings.Add(new Ring(ringPosition, rnd.Next(2, 50), false));
+                    rings.Add(new Ring(ringPosition, rnd.Next(25, 50), false));
                 } else {
                     ringPosition = new Vector3(rnd.Next(-45, 45), 0, rings[i-1].getZ() + (rnd.Next(distance, maxDistance)));
-                    rings.Add(new Ring(ringPosition, rnd.Next(2, 50), false));
+                    rings.Add(new Ring(ringPosition, rnd.Next(25, 50), false));
                 }
                 rings[i].setBoundingBox(calculateBoundingBox(ringModel, Matrix.CreateTranslation(ringPosition)));
             }
@@ -100,11 +102,13 @@ namespace Playground_Projekt
             winSFX.Play(0.25f, 0f, 0f);
             if (score>600)
             {
-                Debug.WriteLine("You Won! Points: " + score);
+                Debug.WriteLine("You won! Points: " + score);
+                scoreText = "You won! Points: " + score;
             }
             else
             {
                 Debug.WriteLine("You did not get enough points :( Points: " + score);
+                scoreText = "You did not get enough points :( Points: " + score;
             }
             timer1.AutoReset=false;
             allowMovement = false;
@@ -114,6 +118,7 @@ namespace Playground_Projekt
             // TODO: use this.Content to load your game content here
             _spriteBatch = new SpriteBatch(GraphicsDevice);
             buttonSprite = Content.Load<Texture2D>("restartButtonSprite");
+            font = Content.Load<SpriteFont>("Score");
             ringModel = Content.Load<Model>("Ring");
             spaceShip = Content.Load<Model>("spaceShip");
             collectSFX = Content.Load<SoundEffect>("beep1");
@@ -155,7 +160,7 @@ namespace Playground_Projekt
 
             if (!allowMovement && Mouse.GetState().LeftButton == ButtonState.Pressed && prevLeftMouseState==ButtonState.Released)
             {
-                if (Mouse.GetState().X <= 120 && Mouse.GetState().Y <= 80)
+                if (Mouse.GetState().X <= 120 && Mouse.GetState().X >= 0 && Mouse.GetState().Y <= 80 && Mouse.GetState().Y >= 0)
                 {
                     Debug.WriteLine("Restarted game!");
                     allowMovement = true;
@@ -169,6 +174,7 @@ namespace Playground_Projekt
             {
                 camPosition.Z += 1f;
                 camTarget.Z += 1f;
+                scoreText = "Score: " + score;
             }
             if (camPosition.X<-50)
             {
@@ -183,6 +189,7 @@ namespace Playground_Projekt
             viewMatrix = Matrix.CreateLookAt(camPosition, camTarget,Vector3.Up);
             shipPosition = Vector3.Add(camPosition, new Vector3(0f, -2f, 10f));
             spaceShipBox = calculateBoundingBox(spaceShip, Matrix.CreateTranslation(shipPosition));
+
             // TODO: Add your update logic here
             //Debug.WriteLine(score);
 
@@ -221,12 +228,14 @@ namespace Playground_Projekt
             rasterizerState.CullMode = CullMode.None;
             GraphicsDevice.RasterizerState = rasterizerState;
 
+            _spriteBatch.Begin();
             if(!allowMovement)
             {
-                _spriteBatch.Begin();
                 _spriteBatch.Draw(buttonSprite, new Rectangle(0, 0,120,80), Color.White);
-                _spriteBatch.End();
             }
+            Vector2 scoreTextWidth = font.MeasureString(scoreText);
+            _spriteBatch.DrawString(font, scoreText, new Vector2((GraphicsDevice.Viewport.Width/2)-(scoreTextWidth.X/2), 0), Color.Black);
+            _spriteBatch.End();
 
             GraphicsDevice.DepthStencilState = DepthStencilState.Default; //This fixed broken Models with SpriteBatch and 3D Models
 

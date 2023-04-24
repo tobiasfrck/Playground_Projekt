@@ -9,11 +9,13 @@
     <File>D:/Projektdateien/Spiel-Projekte/Playground_Projekt/Playground_Projekt/Content/restartButtonSprite.png</File>
     <File>D:/Projektdateien/Spiel-Projekte/Playground_Projekt/Playground_Projekt/Content/ring_Texture.png</File>
     <File>D:/Projektdateien/Spiel-Projekte/Playground_Projekt/Playground_Projekt/Content/Ring.fbx</File>
+    <File>D:/Projektdateien/Spiel-Projekte/Playground_Projekt/Playground_Projekt/Content/Score.spritefont</File>
     <File>D:/Projektdateien/Spiel-Projekte/Playground_Projekt/Playground_Projekt/Content/spaceShip_Texture.png</File>
     <File>D:/Projektdateien/Spiel-Projekte/Playground_Projekt/Playground_Projekt/Content/spaceShip.fbx</File>
     <File>D:/Projektdateien/Spiel-Projekte/Playground_Projekt/Playground_Projekt/Content/woosh.wav</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

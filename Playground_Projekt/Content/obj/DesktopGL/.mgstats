@@ -1,2 +1,2 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"D:/Projektdateien/Spiel-Projekte/Playground_Projekt/Playground_Projekt/Content/restartButtonSprite.png","D:/Projektdateien/Spiel-Projekte/Playground_Projekt/Playground_Projekt/Content/bin/DesktopGL/restartButtonSprite.xnb","TextureProcessor","Texture2DContent",2044,240085,0,0708244
+"D:/Projektdateien/Spiel-Projekte/Playground_Projekt/Playground_Projekt/Content/Score.spritefont","D:/Projektdateien/Spiel-Projekte/Playground_Projekt/Playground_Projekt/Content/bin/DesktopGL/Score.xnb","FontDescriptionProcessor","SpriteFontContent",2068,37919,0,1147736
