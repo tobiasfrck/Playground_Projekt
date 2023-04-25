@@ -63,3 +63,6 @@ D:\Projektdateien\Spiel-Projekte\Playground_Projekt\Playground_Projekt\bin\Debug
 D:\Projektdateien\Spiel-Projekte\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\intro.xnb
 D:\Projektdateien\Spiel-Projekte\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\restartButtonSprite.xnb
 D:\Projektdateien\Spiel-Projekte\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\Score.xnb
+D:\Projektdateien\Spiel-Projekte\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\cube.xnb
+D:\Projektdateien\Spiel-Projekte\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\cubeText.xnb
+D:\Projektdateien\Spiel-Projekte\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\cubeText_0.xnb

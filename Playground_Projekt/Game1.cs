@@ -26,6 +26,7 @@ namespace Playground_Projekt
         //Content:
         public Model ringModel;
         public Model spaceShip;
+        public Model cubeModel;
         Vector3 shipPosition;
         public BoundingBox spaceShipBox;
         private Ring[] rings2;
@@ -124,6 +125,8 @@ namespace Playground_Projekt
             collectSFX = Content.Load<SoundEffect>("beep1");
             missedSFX = Content.Load<SoundEffect>("woosh");
             winSFX = Content.Load<SoundEffect>("intro");
+            cubeModel = Content.Load<Model>("cube");
+            
         }
 
         private void DrawModel(Model model, Matrix world, Matrix view, Matrix projection)
@@ -145,6 +148,7 @@ namespace Playground_Projekt
 
         protected override void Update(GameTime gameTime)
         {
+
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
             if (Keyboard.GetState().IsKeyDown(Keys.Right) && allowMovement)
@@ -228,14 +232,7 @@ namespace Playground_Projekt
             rasterizerState.CullMode = CullMode.None;
             GraphicsDevice.RasterizerState = rasterizerState;
 
-            _spriteBatch.Begin();
-            if(!allowMovement)
-            {
-                _spriteBatch.Draw(buttonSprite, new Rectangle(0, 0,120,80), Color.White);
-            }
-            Vector2 scoreTextWidth = font.MeasureString(scoreText);
-            _spriteBatch.DrawString(font, scoreText, new Vector2((GraphicsDevice.Viewport.Width/2)-(scoreTextWidth.X/2), 0), Color.Black);
-            _spriteBatch.End();
+            
 
             GraphicsDevice.DepthStencilState = DepthStencilState.Default; //This fixed broken Models with SpriteBatch and 3D Models
 
@@ -250,6 +247,16 @@ namespace Playground_Projekt
             }
             
             DrawModel(spaceShip,/*Matrix.CreateRotationX(MathHelper.ToRadians(camPosition.Z))**/Matrix.CreateTranslation(shipPosition), viewMatrix,projectionMatrix);
+            //DrawModel(cubeModel,Matrix.CreateRotationX(MathHelper.ToRadians(camPosition.Z))*Matrix.CreateTranslation(shipPosition), viewMatrix, projectionMatrix);
+            _spriteBatch.Begin();
+            if (!allowMovement)
+            {
+                _spriteBatch.Draw(buttonSprite, new Rectangle(0, 0, 120, 80), Color.White);
+            }
+            Vector2 scoreTextWidth = font.MeasureString(scoreText);
+            _spriteBatch.DrawString(font, scoreText, new Vector2((GraphicsDevice.Viewport.Width / 2) - (scoreTextWidth.X / 2), 0), Color.Black);
+            _spriteBatch.End();
+
             base.Draw(gameTime);
         }
         public BoundingBox calculateBoundingBox(Model model, Matrix worldTransform)
