@@ -20,8 +20,6 @@ jobs:
         run: dotnet build --configuration Release --output ./output
       - name: Zip project
         run: Compress-Archive -Path ./output/* -DestinationPath ./output.zip
-      - name: List contents of output directory
-        run: ls -R ./output
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
