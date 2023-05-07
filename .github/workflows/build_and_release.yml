@@ -1,4 +1,4 @@
-name: Build Desktop App
+name: Build Desktop App and create release manually
 on:
   workflow_dispatch:
     inputs:
