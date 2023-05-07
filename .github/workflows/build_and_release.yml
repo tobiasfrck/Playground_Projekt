@@ -1,6 +1,10 @@
 name: Build Desktop App
 on:
   workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version number'
+        required: true
 jobs:
   build:
     name: Build Desktop App
@@ -16,21 +20,20 @@ jobs:
         run: dotnet build --configuration Release --output ./output
       - name: Create Release
         id: create_release
-        uses: actions/create-release@v1.0.7
+        uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ github.run_number }} # Set the tag name for the release as the run number
-          release_name: Release ${{ github.run_number }} # Set the release name as the run number
+          tag_name: ${{ github.event.inputs.version }} # Set the tag name for the release as the user-inputted version number
+          release_name: Release ${{ github.event.inputs.version }} # Set the release name as the user-inputted version number
           draft: false # Set to false to publish the release immediately after creation
           prerelease: false # Set to true to mark the release as a pre-release
       - name: Upload Release Asset
-        id: upload-release-asset
-        uses: actions/upload-release-asset@v1.0.2
+        uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }} # Get the upload URL for the release from the Create Release step
           asset_path: ./output/output.zip # Path to the asset file
-          asset_name: output-${{ github.run_number }}.zip # Name of the asset file with the run number
+          asset_name: output-${{ github.event.inputs.version }}.zip # Name of the asset file with the user-inputted version number
           asset_content_type: application/zip # Content type of the asset file
