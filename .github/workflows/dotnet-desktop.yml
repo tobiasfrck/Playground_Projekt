@@ -1,4 +1,4 @@
-name: Build Desktop App
+name: Build Desktop App and provide extra compressed output
 on:
   push:
     branches:
@@ -15,9 +15,11 @@ jobs:
         with:
           dotnet-version: '6.0.x'
       - name: Build project
-        run: dotnet build --configuration Release --output ./output
+        run: dotnet build --configuration Release --output ./build_output
+      - name: Zip project
+        run: Compress-Archive -Path ./build_output/* -DestinationPath ./output.zip
       - name: Upload artifact
         uses: actions/upload-artifact@v2
         with:
           name: output
-          path: ./output
+          path: ./output.zip
