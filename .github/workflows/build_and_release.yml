@@ -18,6 +18,8 @@ jobs:
           dotnet-version: '6.0.x'
       - name: Build project
         run: dotnet build --configuration Release --output ./output
+      - name: Zip project
+        run: Compress-Archive -Path ./build_output/* -DestinationPath ./output.zip
       - name: List contents of output directory
         run: ls -R ./output
       - name: Create Release
