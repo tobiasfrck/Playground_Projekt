@@ -19,7 +19,7 @@ jobs:
       - name: Build project
         run: dotnet build --configuration Release --output ./output
       - name: Zip project
-        run: Compress-Archive -Path ./build_output/* -DestinationPath ./output.zip
+        run: Compress-Archive -Path ./output/* -DestinationPath ./output.zip
       - name: List contents of output directory
         run: ls -R ./output
       - name: Create Release
@@ -38,6 +38,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.Release_Token }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }} # Get the upload URL for the release from the Create Release step
-          asset_path: ./output/output.zip # Path to the asset file
+          asset_path: ./output.zip # Path to the asset file
           asset_name: output-${{ github.event.inputs.version }}.zip # Name of the asset file with the user-inputted version number
           asset_content_type: application/zip # Content type of the asset file
