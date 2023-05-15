@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>D:/Projektdateien/Spiel-Projekte/Playground_Projekt/Playground_Projekt/Content/Ring.fbx</SourceFile>
-  <SourceTime>2023-04-24T16:32:36.6460908+02:00</SourceTime>
-  <DestFile>D:/Projektdateien/Spiel-Projekte/Playground_Projekt/Playground_Projekt/Content/bin/DesktopGL/Content/Ring.xnb</DestFile>
-  <DestTime>2023-04-24T17:28:22.101081+02:00</DestTime>
+  <SourceFile>D:/Projekte/MonoGame/Playground_Projekt/Playground_Projekt/Content/Ring.fbx</SourceFile>
+  <SourceTime>2023-04-25T15:42:30.8613899+02:00</SourceTime>
+  <DestFile>D:/Projekte/MonoGame/Playground_Projekt/Playground_Projekt/Content/bin/DesktopGL/Content/Ring.xnb</DestFile>
+  <DestTime>2023-04-26T08:41:26.6033748+02:00</DestTime>
   <Importer>FbxImporter</Importer>
   <ImporterTime>2022-07-26T13:44:56+02:00</ImporterTime>
   <Processor>ModelProcessor</Processor>
@@ -66,7 +66,7 @@
   </Parameters>
   <Dependencies />
   <BuildAsset>
-    <string>D:/Projektdateien/Spiel-Projekte/Playground_Projekt/Playground_Projekt/Content/bin/DesktopGL/Content/ring_Texture_0.xnb</string>
+    <string>D:/Projekte/MonoGame/Playground_Projekt/Playground_Projekt/Content/bin/DesktopGL/Content/ring_Texture_0.xnb</string>
   </BuildAsset>
   <BuildOutput />
 </PipelineBuildEvent>

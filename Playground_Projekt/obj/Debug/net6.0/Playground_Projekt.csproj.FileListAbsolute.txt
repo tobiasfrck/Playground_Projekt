@@ -48,10 +48,6 @@ D:\Projekte\MonoGame\Playground_Projekt\Playground_Projekt\obj\Debug\net6.0\refi
 D:\Projekte\MonoGame\Playground_Projekt\Playground_Projekt\obj\Debug\net6.0\Playground_Projekt.pdb
 D:\Projekte\MonoGame\Playground_Projekt\Playground_Projekt\obj\Debug\net6.0\Playground_Projekt.genruntimeconfig.cache
 D:\Projekte\MonoGame\Playground_Projekt\Playground_Projekt\obj\Debug\net6.0\ref\Playground_Projekt.dll
-D:\Projekte\MonoGame\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\MonkeyTexture.xnb
-D:\Projekte\MonoGame\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\MonkeyTexture_0.xnb
-D:\Projekte\MonoGame\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\texturedMonkey.xnb
-D:\Projekte\MonoGame\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\plane.xnb
 D:\Projektdateien\Spiel-Projekte\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\Ring.xnb
 D:\Projektdateien\Spiel-Projekte\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\ring_Texture.xnb
 D:\Projektdateien\Spiel-Projekte\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\ring_Texture_0.xnb
@@ -63,3 +59,14 @@ D:\Projektdateien\Spiel-Projekte\Playground_Projekt\Playground_Projekt\bin\Debug
 D:\Projektdateien\Spiel-Projekte\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\intro.xnb
 D:\Projektdateien\Spiel-Projekte\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\restartButtonSprite.xnb
 D:\Projektdateien\Spiel-Projekte\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\Score.xnb
+D:\Projekte\MonoGame\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\beep1.xnb
+D:\Projekte\MonoGame\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\intro.xnb
+D:\Projekte\MonoGame\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\restartButtonSprite.xnb
+D:\Projekte\MonoGame\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\Ring.xnb
+D:\Projekte\MonoGame\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\ring_Texture.xnb
+D:\Projekte\MonoGame\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\ring_Texture_0.xnb
+D:\Projekte\MonoGame\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\Score.xnb
+D:\Projekte\MonoGame\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\spaceShip.xnb
+D:\Projekte\MonoGame\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\spaceShip_Texture.xnb
+D:\Projekte\MonoGame\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\spaceShip_Texture_0.xnb
+D:\Projekte\MonoGame\Playground_Projekt\Playground_Projekt\bin\Debug\net6.0\Content\woosh.xnb

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projektdateien\\Spiel-Projekte\\Playground_Projekt\\Playground_Projekt\\Playground_Projekt.csproj": {}
+    "D:\\Projekte\\MonoGame\\Playground_Projekt\\Playground_Projekt\\Playground_Projekt.csproj": {}
   },
   "projects": {
-    "D:\\Projektdateien\\Spiel-Projekte\\Playground_Projekt\\Playground_Projekt\\Playground_Projekt.csproj": {
+    "D:\\Projekte\\MonoGame\\Playground_Projekt\\Playground_Projekt\\Playground_Projekt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projektdateien\\Spiel-Projekte\\Playground_Projekt\\Playground_Projekt\\Playground_Projekt.csproj",
+        "projectUniqueName": "D:\\Projekte\\MonoGame\\Playground_Projekt\\Playground_Projekt\\Playground_Projekt.csproj",
         "projectName": "Playground_Projekt",
-        "projectPath": "D:\\Projektdateien\\Spiel-Projekte\\Playground_Projekt\\Playground_Projekt\\Playground_Projekt.csproj",
-        "packagesPath": "C:\\Users\\tobia\\.nuget\\packages\\",
-        "outputPath": "D:\\Projektdateien\\Spiel-Projekte\\Playground_Projekt\\Playground_Projekt\\obj\\",
+        "projectPath": "D:\\Projekte\\MonoGame\\Playground_Projekt\\Playground_Projekt\\Playground_Projekt.csproj",
+        "packagesPath": "C:\\Users\\Tobias\\.nuget\\packages\\",
+        "outputPath": "D:\\Projekte\\MonoGame\\Playground_Projekt\\Playground_Projekt\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tobia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tobias\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

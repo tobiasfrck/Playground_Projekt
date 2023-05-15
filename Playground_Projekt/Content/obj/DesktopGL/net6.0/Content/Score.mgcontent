@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>D:/Projektdateien/Spiel-Projekte/Playground_Projekt/Playground_Projekt/Content/Score.spritefont</SourceFile>
-  <SourceTime>2023-04-24T23:35:47.1394528+02:00</SourceTime>
-  <DestFile>D:/Projektdateien/Spiel-Projekte/Playground_Projekt/Playground_Projekt/Content/bin/DesktopGL/Content/Score.xnb</DestFile>
-  <DestTime>2023-04-24T23:35:56.1772666+02:00</DestTime>
+  <SourceFile>D:/Projekte/MonoGame/Playground_Projekt/Playground_Projekt/Content/Score.spritefont</SourceFile>
+  <SourceTime>2023-04-25T15:42:30.8613899+02:00</SourceTime>
+  <DestFile>D:/Projekte/MonoGame/Playground_Projekt/Playground_Projekt/Content/bin/DesktopGL/Content/Score.xnb</DestFile>
+  <DestTime>2023-04-26T08:41:26.7436608+02:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
   <ImporterTime>2022-07-26T13:44:56+02:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>
